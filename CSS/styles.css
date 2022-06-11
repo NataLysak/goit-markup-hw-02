@@ -1,0 +1,199 @@
+/* root */
+:root
+{--accent-color: #2196F3;
+--hover-btn-color: #188CE8;
+--active-color: #757575;
+--white-color: #FFFFFF;
+--background-footer-color: #2F303A;
+--text-header-color:#212121; 
+
+}
+
+.link{text-decoration: none;}
+
+.list{list-style: none;}
+
+/* Body */
+body{
+    background-color: #E5E5E5;
+    color: var(--active-color);
+    font-family: Roboto, monospace;
+}
+
+/* Logo */
+.logo{
+    font-family: 'Raleway'; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:var(--accent-color);
+}
+.logo-header {
+    color: black;
+}
+
+
+/* Шапка сайта */
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-header-color); }
+.header-link:hover, .header-link:focus, .header-link:active{
+    color: var(--accent-color)}
+
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--active-color);
+    }
+.header-contact:hover, .header-contact:focus, .header-contact:active {color: var(--accent-color);
+    }
+
+/* Hero */
+
+.hero
+{background-color: var(--background-footer-color);}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);}
+
+/* Hero-button */
+.hero-button{
+    font-family: inherit;
+    cursor: pointer;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+.hero-button:hover, .hero-button:focus{background: var(--hover-btn-color); 
+}
+
+
+/* Наши приемущества */
+.advantages-title{
+    Font size: 14px;
+    Line height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-header-color);}
+
+.advantages-text{
+    font-size: 14px;
+    Line height: 1.7;
+    letter-spacing: 0.03em;
+    }
+
+/* Чем мы занимаемся */
+.title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-header-color);
+
+}
+
+/* Наша команда */
+
+.our-team{background-color: #F5F4FA;}
+
+.team-members{background-color: var(--white-color);
+}
+
+.name{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19x;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-header-color);
+}
+
+.post{
+    font-size: 16px;
+    line-height: 1.19x;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Footer studio*/
+.logo-footer{color: var(--white-color);}
+
+.footer-background{background-color: var(--background-footer-color);}
+
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--white-color);
+    }
+.footer-contact:hover{color: var(--accent-color)}
+
+.contact{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    }
+.contact:hover{color:var(--accent-color)}
+
+
+  /* Portfolio */
+  
+/* Кнопки фильтра */
+.button-portfolio{
+    font-family: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-header-color);
+    background: #F5F4FA;
+    border-radius: 4px; }
+.button-portfolio:hover, .button-portfolio:focus
+{ background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--white-color); 
+}
+
+/* Проекты */
+.project{background-color: var(--white-color);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;}
+
+.project-title{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-header-color);}
+    
+.project-text{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--active-color);}
+
